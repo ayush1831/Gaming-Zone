@@ -1,0 +1,44 @@
+nav {
+  background-color: rgb(153, 86, 170);
+  color: black;
+  height: 12vh;
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  padding: 0 12px;
+  font-family: "Roboto", sans-serif;
+  padding: 10px auto;
+}
+body {
+  background-color: #bed4f5;
+}
+
+nav ul {
+  list-style-type: none;
+}
+.nav-link {
+  color: black;
+  font-weight: 700;
+}
+.nav-pills .nav-link {
+  border: 2px solid white;
+  border-radius: 12px;
+  margin: 0 10px;
+}
+.card {
+  margin-top: 15vh;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid rgb(31, 5, 56);
+  border-radius: 8px;
+}
+.card-body {
+  text-align: center;
+}
+.logo {
+  width: 200px;
+  height: 200px;
+  border: 0.5 px solid black;
+  margin-bottom: 5px;
+}
